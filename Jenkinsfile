@@ -11,8 +11,7 @@ pipeline {
         }
         stage('Check node version') {
             steps {
-              echo 'Hello, JDK'
-              sh 'java -version'
+              sh 'node -version'
             }
         }
     }
